@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+h1{
+    color: darkred;
+    text-align: center;
+    margin-top: 1em;
+}
+.container{
+    margin: 2.5em auto;
+    width: 80%;
+}
+.mapa{
+    position: relative;
+}
+.puertavino{
+    background-color: darkred;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: 36.5%;
+    left: 48.5%;
+    transition: bottom 2s;   
+}
+.puertavino:hover{
+    cursor: pointer;
+   
+}
+.puertavino:hover .inf-tooltip{
+    visibility: visible;
+}
+.inf-tooltip{
+    visibility: hidden;
+    background-color: darkred;
+    color: whitesmoke;
+    position: absolute;
+    left: 50px;
+    top: -100px;
+    padding: 1em;
+    text-align: center;
+    border-radius: 20%;
+    width: 150px;
+}
+.inf-tooltip img{
+    width: 100%;
+    padding: 1em;
+}
+.galana{
+    background-color: darkred;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: 51%;
+    left: 51.5%;
+    transition: bottom 2s;   
+}
+.galana:hover{
+    cursor: pointer;
+    
+   
+}
+.galana:hover .inf-tooltip{
+    visibility: visible;
+}
+.ganan{
+    background-color: darkred;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: 30%;
+    left: 13%;
+    
+}
+.ganan:hover{
+    cursor: pointer;
+}
+.ganan:hover .inf-tooltip{
+    visibility: visible;
+}
+.ganan .inf-tooltip img{
+    width: 50px;
+}
