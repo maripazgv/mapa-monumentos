@@ -85,6 +85,30 @@ h1{
 .ganan:hover .inf-tooltip{
     visibility: visible;
 }
-.ganan .inf-tooltip img{
-    width: 50px;
+.ganan .inf-tooltip{
+    width: 200px;
+}
+.obelisco{
+    background-color: darkred;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: 65.5%;
+    left: 46.5%;
+}
+.obelisco:hover{
+    cursor: pointer;
+}
+.obelisco:hover .inf-tooltip{
+    visibility: visible;
+}
+.obelisco .inf-tooltip{
+    width: 300px;
+    height: 300px;
+}
+.obelisco img{
+    width: 100px;
+    height: 100px;
+    
 }
